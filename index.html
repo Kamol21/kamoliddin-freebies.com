@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>18-homework</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <main>
+        <section class="container">
+            <div class="all">
+                <div class="left">
+                    <div class="left-things">
+                        <img src="./images/Page1.svg" width="120" height="120" alt="girl_picture">
+                        <h1 class="shrift-h1">
+                            Let’s get you set up
+                        </h1>
+                        <p class="shrift-p">
+                            Itshould only take a couple of minutes
+                            to pair with your watch
+                        </p>
+                        <a href="#">
+                            <img src="./images/right.svg" width="32" height="32" alt="next">
+                        </a>
+                    </div>
+                </div>
+                <div class="right">
+                    <form action="https://echo.htmlacademy.ru/courses" method="post" autocomplete="off">
+                        <ul class="form">
+                            <li class="inputs-divs">
+                                <label class="for-shrift" for="user-name">Name</label>
+                                <input class="all-used for-shrift" type="text" minlength="2" maxlength="80" name="user-name" id="user-name"
+                                    placeholder="Name"
+                                 required>
+                            </li>
+                            <li class="inputs-divs">
+                                <div class="user-gender">
+                                    <p class="for-shrift">Gender</p>
+                                    <div class="for-radio-margins">
+                                        <input class="surish" type="radio" id="male" name="user-gender">
+                                        <label class="for-shrift" for="male">Male</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" id="female" name="user-gender">
+                                        <label class="for-shrift" for="female">Female</label>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="inputs-divs">
+                                <label class="for-shrift" for="user-dateofbirth">Date of Birth</label>
+                                <input class="date-birth for-shrift" type="date" name="user-dateofbirth" id="user-dateofbirth" required>    
+                            </li>
+                            <li class="inputs-divs">
+                                <label class="for-shrift" for="user-email">Email</label>
+                                <input class="all-used for-shrift" type="email" name="user-email" placeholder="kendall@gmail.com" id="user-email" required>
+                            </li>
+                            <li class="inputs-divs">
+                                <label class="for-shrift" for="user-tel">Mobile</label>
+                                <input class="all-used for-shrift" type="tel" name="user-tel" minlength="13"
+                                maxlength="17" placeholder="+998 99 000 00 01" id="user-tel" required>
+                            </li>
+                            <li class="inputs-divs">
+                                <label class="for-shrift" for="user-id">Customer ID</label>
+                                <input class="all-used for-shrift" type="text" name="user-id" minlength="4" maxlength="50" placeholder="57o2-ERD0348 45" id="user-id" required>
+                            </li>
+                            <li class="inputs-divs">
+                                <div class="membership">
+                                    <p class="for-shrift">Membership</p>
+                                    
+                                    <div class="for-radio-margins">
+                                        <input class="surish-last" type="radio" name="user-membership" id="classic">
+                                        <label class="for-shrift" for="classic"> Classic</label>
+                                    </div>
+                                    <div class="for-radio-margins">
+                                        <input type="radio" name="user-membership" id="silver">
+                                        <label class="for-shrift" for="silver">Silver</label>
+                                    </div>
+                                    <input type="radio" name="user-membership" id="gold">
+                                    <label class="for-shrift" for="gold">Gold</label>
+                                </div>                                
+                            </li>
+                        </ul>
+                        <div class="button-part">
+                            <button class="cancel for-shrift" type="reset">
+                                CANCEL
+                            </button>
+                            <button class="save for-shrift" type="submit">
+                                SAVE
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
